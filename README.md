@@ -13,11 +13,11 @@ This repository contains a template for a Node.js application that uses the Spot
     npm install
     ```
 3. Create a new Spotify application at the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications).
-4. Add the client ID and client secret to the `.env` file:
-    ```env
-    CLIENT_ID=YOUR_CLIENT_ID
+4. Create the .env file using the following command:
+    ```bash
+    echo "CLIENT_ID=YOUR_CLIENT_ID
     CLIENT_SECRET=YOUR_CLIENT_SECRET
-    REDIRECT_URI=http://localhost:3000/auth/callback
+    REDIRECT_URI=http://localhost:3000/auth/callback" > .env
     ```
 5. Start the server:
     ```bash
